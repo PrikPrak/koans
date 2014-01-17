@@ -30,10 +30,6 @@ class AboutObjects < Neo::Koan
     assert_equal true, obj.object_id != another_obj.object_id
   end
 
-  [0,1,2,3,4,5,6,7,8,9,10,11,100].each {|element|
-    puts "#{element} object ID -  #{element.object_id}"
-  }
-
   def test_small_integers_have_fixed_ids
     assert_equal 1, 0.object_id
     assert_equal 3, 1.object_id
@@ -52,3 +48,12 @@ class AboutObjects < Neo::Koan
     assert_equal true, obj.object_id != copy.object_id
   end
 end
+
+
+=begin  
+  CP Scratch Pad
+
+  [0,1,2,3,4,5,6,7,8,9,10,11,100].each {|element|
+    puts "#{element} object ID -  #{element.object_id}"
+  }
+=end

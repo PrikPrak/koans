@@ -1,4 +1,21 @@
 
 Filename: about_nil.rb
 Question: Is it better to use obj.nil? or obj == nil, Why?
-Answer:
+
+My Answer: My guess is that it's better to use the .nil method rather than
+finding out through a conditional expression. 
+
+As a beginner Ruby programmer who has reviewed the .nil? method's definition, 
+I know that only the nil object wil respond true to nil. I'm unaware of the 
+implicit promotions or idioms that take place in ruby when utilizing the
+conditional operator (For example, in C when comparing an integer or a float, how the integer is promoted to be interpreted as a float.), so it's better to be sure
+than not. 
+
+
+Filename: about_objects.rb
+Question: What pattern do the object IDs for small integers follow?
+
+My Answer: The formula for the pattern is: (integer*2)+1.
+
+
+Filename: 
