@@ -1,0 +1,4 @@
+
+Filename: about_nil.rb
+Question: Is it better to use obj.nil? or obj == nil, Why?
+Answer:
